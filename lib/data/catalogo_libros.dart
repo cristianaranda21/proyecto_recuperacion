@@ -1,0 +1,58 @@
+import 'package:flutter/material.dart';
+
+final List<Map<String, dynamic>> catalogoLibros = [
+  {
+    'id': 1,
+    'titulo': 'Cien años de soledad',
+    'autor': 'Gabriel García Márquez',
+    'categoria': 'Literatura',
+    'estado': 'Disponible',
+    'icono': Icons.menu_book,
+    'color': const Color(0xFF176B67),
+  },
+  {
+    'id': 2,
+    'titulo': 'El principito',
+    'autor': 'Antoine de Saint-Exupéry',
+    'categoria': 'Fábula',
+    'estado': 'Disponible',
+    'icono': Icons.auto_stories,
+    'color': const Color(0xFFE58B45),
+  },
+  {
+    'id': 3,
+    'titulo': 'Don Quijote de la Mancha',
+    'autor': 'Miguel de Cervantes',
+    'categoria': 'Novela',
+    'estado': 'Prestado',
+    'icono': Icons.book,
+    'color': const Color(0xFF4977A8),
+  },
+  {
+    'id': 4,
+    'titulo': 'La vorágine',
+    'autor': 'José Eustasio Rivera',
+    'categoria': 'Literatura',
+    'estado': 'Disponible',
+    'icono': Icons.library_books,
+    'color': const Color(0xFF9A5A49),
+  },
+  {
+    'id': 5,
+    'titulo': 'Matilda',
+    'autor': 'Roald Dahl',
+    'categoria': 'Infantil',
+    'estado': 'Disponible',
+    'icono': Icons.menu_book,
+    'color': const Color(0xFF725B8E),
+  },
+  {
+    'id': 6,
+    'titulo': 'El viejo y el mar',
+    'autor': 'Ernest Hemingway',
+    'categoria': 'Novela',
+    'estado': 'Prestado',
+    'icono': Icons.book_outlined,
+    'color': const Color(0xFF427A78),
+  },
+];
